@@ -1,0 +1,128 @@
+body {
+  background-color: #D5F5E3;
+  font-family: "Open Sans", sans-serif;
+  padding: 5px 25px;
+  font-size: 18px;
+  margin: 0;
+  color: #444;
+}
+
+
+
+main 
+    {
+    background-color: white;
+    
+    }  
+
+#content{
+         
+         max-width: 800px;
+         background-color: white;
+         margin: 0 auto;
+       
+       }
+
+
+
+.home-grid  {
+           
+             border-radius: 8px;
+             border-color: #EB984E;
+             background-color: #F8C471;
+             height: 100px;
+      
+            
+           }
+
+.logo-box {
+  
+              position: absolute;
+              top: 45px;
+              right: 300px;
+              z-index: 1;
+          }
+
+
+
+.name {
+               font-family: "Open Sans", sans-serif;
+               color: #34495E ;
+               position: relative;
+               top: 35px;
+               text-align: center;
+              
+          }
+
+.p1 {
+  
+               position: relative;
+               top: 14px;
+               text-align: center;
+               font-size: 15px;
+              
+          }
+
+.p2 {
+  
+               position: relative;
+               top: 5px;
+               text-align: center;
+               font-size: 13px;
+               color: #7B241C;
+              
+          }
+
+
+
+  .home-treat {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+            grid-gap: 30px;
+            padding: 10px;
+            
+                   
+          }
+
+
+.title
+        {
+           grid-column: 1/4;
+           grid-row: 1/2;
+           margin: 11px;
+           margin-top: 0px;
+           font-size: 23px;
+                    
+        }
+
+.line  {
+  
+         grid-column: 1/4;
+         grid-row: 1/2;
+         margin: 7px;
+         font-size: 35px;
+         color: #81CAEC; 
+        
+  
+      }
+
+ul 
+     {
+       grid-column: 1/4;
+       grid-row: 2;
+        margin-top: -30px;
+        font-size: 15px;
+                    
+      }
+
+footer
+    {
+   
+     border-radius: 8px;
+     border-color: #EB984E;
+     background-color: #F8C471;
+     height: 80px;
+    
+   
+    }
+
