@@ -1,9 +1,50 @@
-<!doctype html>
-<html lang="en-us">
-<head>
-  <title>Proyect</title>
-</head>
-<body>
- <h1>Rosario</h1>
-</body>
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Introduction</title>
+    <link rel="stylesheet" href="style.css">
+    
+    
+  </head>
+  <body>   
+    <div id= "content">
+     <header>
+        <div class= "home-grid">
+        <img class="logo-box" src= "https://cdn.glitch.com/4688e119-e8a3-4420-8f6c-63ca7f463b21%2Fmio.jpg?v=1619306349495" alt = "Photo">
+        <h1 class="name"> María R. Mora </h1>
+        </div> 
+     </header>
+   <main>
+         <div class= "home-treat">
+         <p class="title"> CIT 230: Assigment Portal </p> 
+         <p class = "line">___________________________________________</p>
+         
+            <ul>
+                <li>Lesson 02: <a href="index.html">Assignment Link</a></li>
+                <li>Lesson 03: <a href="index.html">Assignment Link</a></li>
+                <li>Lesson 04: <a href="index.html">Link</a> | <a href="index.html">Link</a> </li>
+                
+            </ul>
+           
+           </div> 
+  </main>
+   <footer>
+     <p class="p1">&copy; 2020 | María R. Mora | Ecuador | <a href="https://www.byui.edu/online" target="_blank">BYUI Online Learning</a></p>
+     <p class="p2"> Last Updated: <label id="outputDiv"></label></p> 
+      
+   </footer>
+  </div>
+    
+  <script>
+       
+      let nLastModif = document.lastModified;
+      document.getElementById('outputDiv').innerHTML = nLastModif;
+    
+        
+   </script>
+    
+   
+  </body>
 </html>
