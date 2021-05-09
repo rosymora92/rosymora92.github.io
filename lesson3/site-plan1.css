@@ -1,0 +1,110 @@
+:root {
+    --primary-color: #131D47;
+    --secondary-color: #399892;
+    --accent1-color: #E7F7F6;
+    --accent2-color: #BFC2CC;
+  
+    --heading-font: "IM Fell French Canon SC";
+    --paragraph-font: Lato, Helvetica, sans-serif;
+  
+   
+    --headline-color-on-white: black;  
+    --headline-color-on-color: white; 
+    --paragraph-color-on-white: black; 
+    --paragraph-color-on-color: #0000FF;
+    --text-background-color: #131D47;
+    --nav-link-color: #008080;
+    --nav-background-color: #E7C24F;
+    --nav-hover-link-color: #0000FF;
+    --nav-hover-background-color: #FF5733;
+  }
+  
+  
+  html {
+    background-color: #EFF7F6;
+  }
+  body {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 1em;
+  }
+  img {
+    max-width: 100%;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--headline-color-on-white);
+  }
+  header {
+    padding: 1em;
+    text-align: center;
+    color: var(--paragraph-color-on-color);
+    background-color: var(--text-background-color);
+  }
+  header > h1, header > h2 {
+    color: var(--headline-color-on-color);
+  }
+  
+  p {
+    font-family: var(--paragraph-font);
+    color: var(--paragraph-color);
+    padding: 1em;
+  }
+  
+  .colors {
+    width: 100%;
+    min-width: 350px;
+    margin: auto;
+    text-align: center;
+  }
+  .colors th {
+    background-color: #999;
+  }
+  .colors td{
+    width: 25%;
+    height: 3em;
+  }
+  
+  .primary {
+    background-color: var(--primary-color);
+  }
+  .secondary {
+    background-color: var(--secondary-color);
+  }
+  .accent1 {
+    background-color: var(--accent1-color);
+  }
+  .accent2{
+    background-color: var(--accent2-color);
+  }
+  
+  p.colored {
+    background-color: var(--text-background-color);
+    color: var(--paragraph-color-on-color);
+  }
+  
+  nav {
+    background-color: #E7F7F6;
+    line-height: 3em;
+    text-align: center;
+    font-size: 1.2em;
+  }
+  nav > ul {
+    list-style-type: none;
+    display: flex;
+  
+  }
+  nav a {
+    padding:1em;
+    min-width: 70px;
+  }
+  nav a:link, nav a:visited {
+    color: #131D47;
+  }
+  nav a:hover {
+    color: #131D47;
+    background-color: #399892;
+  }
+  
+  
